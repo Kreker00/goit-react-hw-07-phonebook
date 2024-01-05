@@ -2,7 +2,7 @@ import { ContactEntryForm } from './ContactEntryForm/ContactEntryForm';
 import { ContactList } from './ContactList/ContactList';
 import { SearchFilter } from './SearchFilter/SearchFilter';
 import { GlobalStyle } from './GlobalStyle';
-import { fetchContacts } from 'redux/operations';
+import { fetchContacts } from '../redux/operations';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { selectIsLoading, selectError } from '../redux/selectors';
